@@ -2,14 +2,7 @@ import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   output: 'export',
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: '**.teepee.kr',
-      },
-    ],
-  },
+  basePath: '/bum-hyun.github.io',
 };
 
 export default nextConfig;
