@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: '이력서 - 김범현',
     type: 'website',
     url: 'https://bum-hyun.github.io/resume',
-    image: '/resume/profile.jpeg',
+    images: '/resume/profile.jpeg',
     description: '프론트엔드 개발자 김범현입니다.',
     locale: 'ko_KR',
   },
