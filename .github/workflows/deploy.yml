@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout source code
         uses: actions/checkout@v3
+        with:
+          submodules: false # 서브모듈 무시
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
