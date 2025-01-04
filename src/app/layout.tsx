@@ -3,7 +3,7 @@ import './globals.css';
 import type { Metadata, Viewport } from 'next';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://bum-hyun.github.io/resume'),
+  metadataBase: new URL('https://bum-hyun.github.io'),
   title: '이력서 - 김범현',
   description: '프론트엔드 개발자 김범현입니다.',
   openGraph: {
