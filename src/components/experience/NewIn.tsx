@@ -5,7 +5,7 @@ import CompanyInfo from '@/components/experience/CompanyInfo';
 const NewIn = () => {
   return (
     <div className={container}>
-      <CompanyInfo companyName={'뉴인'} companyRole={'Frontend Developer'} period={'2022.06 - 2021.08'} url={'https://touchclass.com/ko/'} />
+      <CompanyInfo companyName={'뉴인'} companyRole={'Frontend Developer'} period={'2020.06 - 2021.08'} url={'https://touchclass.com/ko/'} />
       <div className={content}>
         <div className={projectWrap}>
           <h2 className={project}>터치클래스</h2>
