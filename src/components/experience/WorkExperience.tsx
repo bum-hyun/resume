@@ -1,8 +1,6 @@
 import { css } from 'styled-system/css';
 
-interface IWorkExperienceProps {}
-
-const WorkExperience = ({}: IWorkExperienceProps) => {
+const WorkExperience = () => {
   return <div className={content}></div>;
 };
 
