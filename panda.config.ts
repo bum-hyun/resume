@@ -70,7 +70,7 @@ export default defineConfig({
     extend: {},
   },
 
-  syntax: 'object-literal',
+  syntax: 'template-literal',
   jsxFramework: 'react',
   // The output directory for your css system
   outdir: 'styled-system',

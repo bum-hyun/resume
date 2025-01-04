@@ -2,12 +2,9 @@ import './globals.css';
 
 import type { Metadata } from 'next';
 
-import Providers from '@/app/provider';
-import InitializeWorker from '@/components/InitializeWorker';
-
 export const metadata: Metadata = {
-  title: '타이틀',
-  description: '설명',
+  title: '이력서 - 김범현',
+  description: '프론트엔드 개발자 김범현입니다.',
 };
 
 interface RootLayoutProps {
@@ -15,18 +12,9 @@ interface RootLayoutProps {
 }
 
 export default function RootLayout({ children }: RootLayoutProps) {
-  const env = process.env.NODE_ENV;
-
   return (
     <html lang="ko">
-      <Providers>
-        {env === 'development' && (
-          <InitializeWorker>
-            <body>{children}</body>
-          </InitializeWorker>
-        )}
-        {env !== 'development' && <body>{children}</body>}
-      </Providers>
+      <body>{children}</body>
     </html>
   );
 }
