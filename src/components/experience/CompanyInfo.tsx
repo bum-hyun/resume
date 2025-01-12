@@ -13,7 +13,7 @@ const CompanyInfo = ({ companyName, companyRole, url, period }: ICompanyInfoProp
       <h3 className={h3}>{companyName}</h3>
       <span className={span1}>{companyRole}</span>
       <a className={span2} href={url} target={'_blank'} rel={'noreferrer'}>
-        링크
+        {url}
       </a>
       <span className={span2}>{period}</span>
     </div>

@@ -11,7 +11,6 @@ const FridgeCrew = () => {
           <h2 className={project}>헬로티피</h2>
 
           <div className={wrap}>
-            <h4 className={label}>개요</h4>
             <div className={experience}>반려동물 보호자가 예약을 관리하고 알림장, 동의서 등을 확인할 수 있는 앱인 헬로티피를 개발했습니다.</div>
           </div>
 
@@ -79,7 +78,7 @@ const content = css`
 const projectWrap = css``;
 
 const project = css`
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 `;
 
 const wrap = css`

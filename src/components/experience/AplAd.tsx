@@ -11,7 +11,6 @@ const AplAd = () => {
           <h2 className={project}>에디프레소 2.0</h2>
 
           <div className={wrap}>
-            <h4 className={label}>개요</h4>
             <div className={experience}>뉴스 발행 및 관리 솔루션 에디프레소의 두번째 버전을 개발했습니다.</div>
           </div>
 
@@ -71,7 +70,7 @@ const content = css`
 const projectWrap = css``;
 
 const project = css`
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 `;
 
 const wrap = css`

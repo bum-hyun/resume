@@ -11,7 +11,6 @@ const NewIn = () => {
           <h2 className={project}>터치클래스</h2>
 
           <div className={wrap}>
-            <h4 className={label}>개요</h4>
             <div className={experience}>기업 사내 교육용 솔루션인 터치클래스의 추가 개발 및 유지보수, 개선을 담당했습니다.</div>
           </div>
 
@@ -73,7 +72,7 @@ const content = css`
 const projectWrap = css``;
 
 const project = css`
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 `;
 
 const wrap = css`
