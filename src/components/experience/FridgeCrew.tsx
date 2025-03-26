@@ -36,6 +36,7 @@ const FridgeCrew = () => {
             <span className={experience}>Fastlane을 사용한 앱 자동 배포 시스템 구축</span>
             <span className={experience}>Appsflyer를 활용한 원링크 적용</span>
             <span className={experience}>husky와 amplify를 사용하여 안정적인 빌드와 배포 과정 구축</span>
+            <span className={experience}>Sentry 도입하여 서비스 모니터링</span>
           </div>
 
           <div className={wrap}>
