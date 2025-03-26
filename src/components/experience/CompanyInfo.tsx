@@ -30,6 +30,7 @@ const company = css`
   margin-right: 20px;
 
   @media screen and (max-width: 960px) {
+    width: 100%;
     margin: 24px 0;
   }
 `;
