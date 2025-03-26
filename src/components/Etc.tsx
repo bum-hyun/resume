@@ -30,7 +30,7 @@ const Etc = () => {
         </h3>
         <p className={p}>읽기 쉬운 코드를 작성하기 위해 노력합니다.</p>
         <p className={p}>적절한 개발 기간 산정에 자신이 있고, 빠른 개발에 자신이 있습니다.</p>
-        <p className={p}>공교롭게도 혼자 프론트엔드를 담당한 기간이 길었습니다. 그만큼 강한 책임감을 가지고 있습니다.</p>
+        <p className={p}>스타트업에서 근무해온만큼 책임감있고 자기주도적으로 업무를 합니다.</p>
         <p className={p}>React hooks를 사용하여 공통 로직을 적절하게 분리합니다.</p>
         <p className={p}>Emotion을 사용하여 컴포넌트별 스타일 적용을 선호합니다.</p>
         <p className={p}>React Native와 Flutter를 사용하여 하이브리드앱을 개발해본 경험이 있습니다.</p>

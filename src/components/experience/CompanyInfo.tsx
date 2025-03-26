@@ -12,7 +12,7 @@ const CompanyInfo = ({ companyName, companyRole, url, period }: ICompanyInfoProp
     <div className={company}>
       <h3 className={h3}>{companyName}</h3>
       <span className={span1}>{companyRole}</span>
-      <a className={span2} href={url} target={'_blank'} rel={'noreferrer'}>
+      <a className={a} href={url} target={'_blank'} rel={'noreferrer'}>
         {url}
       </a>
       <span className={span2}>{period}</span>
@@ -27,6 +27,7 @@ const company = css`
   display: flex;
   flex-direction: column;
   width: 240px;
+  margin-right: 20px;
 
   @media screen and (max-width: 960px) {
     margin: 24px 0;
@@ -42,6 +43,10 @@ const h3 = css`
 
 const span1 = css`
   font-weight: 500;
+`;
+
+const a = css`
+  text-decoration: underline;
 `;
 
 const span2 = css``;
