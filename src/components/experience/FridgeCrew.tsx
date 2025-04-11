@@ -5,23 +5,23 @@ import CompanyInfo from '@/components/experience/CompanyInfo';
 const FridgeCrew = () => {
   return (
     <div className={container}>
-      <CompanyInfo companyName={'프릿지크루'} companyRole={'Frontend Developer'} period={'2022.12 - 현재'} url={'https://teepee.kr/'} />
+      <CompanyInfo companyName={'프릿지크루'} companyRole={'Frontend Developer'} period={'2022.12 - 2025.03'} url={'https://teepee.kr/'} />
       <div className={content}>
         <div className={projectWrap}>
           <h2 className={project}>헬로티피</h2>
 
           <div className={wrap}>
-            <div className={experience}>반려동물 보호자가 예약을 관리하고 알림장, 동의서 등을 확인할 수 있는 앱인 헬로티피를 개발했습니다.</div>
+            <div className={experience}>반려동물 보호자를 위한 예약 및 커뮤니케이션 앱 `헬로티피`의 프론트엔드 전면 개발</div>
           </div>
 
           <div className={wrap}>
             <h4 className={label}>주요 업무</h4>
-            <span className={experience}>전체 서비스 개발</span>
-            <span className={experience}>Flutter에서 React native로의 변경 작업</span>
-            <span className={experience}>Fastlane을 사용한 앱 자동 배포 시스템 구축</span>
-            <span className={experience}>Appsflyer를 활용한 원링크 적용</span>
-            <span className={experience}>husky와 amplify를 사용하여 안정적인 빌드와 배포 과정 구축</span>
-            <span className={experience}>Sentry 도입하여 서비스 모니터링</span>
+            <span className={experience}>Next.js 기반 웹뷰 화면 개발 및 앱 연동</span>
+            <span className={experience}>React Native 앱 내 웹뷰 연동 및 브릿지 로직 구현</span>
+            <span className={experience}>Fastlane을 활용한 앱 자동 배포 파이프라인 구축</span>
+            <span className={experience}>Appsflyer 연동을 통한 원링크 적용 및 마케팅 캠페인 추적</span>
+            <span className={experience}>Husky + AWS Amplify를 활용한 안정적 CI/CD 환경 구성</span>
+            <span className={experience}>Sentry 도입으로 에러 로깅 및 실시간 관제 체계 마련</span>
           </div>
 
           <div className={wrap}>
@@ -34,15 +34,15 @@ const FridgeCrew = () => {
           <h2 className={project}>티피매니저</h2>
 
           <div className={wrap}>
-            <div className={experience}>반려동물 전용 미용실, 유치원, 호텔, 데이케어 업장의 예약 관리 및 매장 관리 서비스를 추가 개발, 유지보수 및 개선 작업을 했습니다.</div>
+            <div className={experience}>반려동물 업장(미용, 유치원, 호텔 등)의 매장·예약 관리 서비스 유지보수 및 기능 개선</div>
           </div>
 
           <div className={wrap}>
             <h4 className={label}>주요 업무</h4>
-            <span className={experience}>예약 관리, 예약금 시스템, 매장 정보 관리 등 개발</span>
-            <span className={experience}>서비스 구조 변경 및 리팩토링</span>
-            <span className={experience}>Typescript 적용 및 Zustand, React query 적용</span>
-            <span className={experience}>husky와 amplify를 사용하여 안정적인 빌드와 배포 과정 구축</span>
+            <span className={experience}>고객 정보 분산 문제 해결 → 고객 정보 중앙화로 클레임 발생률 100% 감소</span>
+            <span className={experience}>TanStack Query 도입으로 API 캐싱 최적화 및 중복 호출 제거</span>
+            <span className={experience}>비효율적인 컴포넌트 구조 개선 및 TypeScript 기반 전환</span>
+            <span className={experience}>Zustand 도입으로 간결한 상태 관리 구조 적용 및 유지보수 효율화</span>
           </div>
 
           <div className={wrap}>

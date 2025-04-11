@@ -11,13 +11,14 @@ const AplAd = () => {
           <h2 className={project}>에디프레소 2.0</h2>
 
           <div className={wrap}>
-            <div className={experience}>뉴스 발행 및 관리 솔루션 에디프레소의 두번째 버전을 개발했습니다.</div>
+            <div className={experience}>뉴스 발행 및 콘텐츠 관리 플랫폼 `에디프레소 2.0` 개발</div>
           </div>
 
           <div className={wrap}>
             <h4 className={label}>주요 업무</h4>
-            <span className={experience}>뉴스 작성 에디터 기능 개발</span>
-            <span className={experience}>뉴스 관리 기능 개발</span>
+            <span className={experience}>뉴스 작성 에디터 및 기사 관리 기능 구현</span>
+            <span className={experience}>Vuex를 활용한 상태 관리 구조 도입 및 컴포넌트 단위 재사용성 향상</span>
+            <span className={experience}>운영 중 발생한 유지보수 및 기능 개선 작업 수행</span>
           </div>
 
           <div className={wrap}>
@@ -30,17 +31,19 @@ const AplAd = () => {
           <h2 className={project}>공감신문, 내외경제, 리서치페이퍼 페이지 개발</h2>
 
           <div className={wrap}>
-            <div className={experience}>PC, Moible 환경에 따른 뉴스페이지들을 개발했습니다.</div>
+            <div className={experience}>뉴스 미디어 페이지의 반응형 웹 개발 및 유지보수</div>
           </div>
 
           <div className={wrap}>
             <h4 className={label}>주요 업무</h4>
-            <span className={experience}>Blade Template을 사용하여 각 뉴스페이지 개발</span>
+            <span className={experience}>다양한 해상도 대응을 위한 PC/Mobile 전용 페이지 분리 구현</span>
+            <span className={experience}>Laravel Blade 템플릿을 사용하여 콘텐츠 레이아웃 개발</span>
+            <span className={experience}>운영 이슈에 따른 UI/UX 개선 및 브라우저 호환성 대응</span>
           </div>
 
           <div className={wrap}>
             <h4 className={label}>사용 기술</h4>
-            <span className={experience}>Javascript, Jquery</span>
+            <span className={experience}>Javascript, Jquery, Blade Template</span>
           </div>
         </div>
       </div>

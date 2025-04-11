@@ -11,14 +11,14 @@ const NewIn = () => {
           <h2 className={project}>터치클래스</h2>
 
           <div className={wrap}>
-            <div className={experience}>기업 사내 교육용 솔루션인 터치클래스의 추가 개발 및 유지보수, 개선을 담당했습니다.</div>
+            <div className={experience}>기업용 사내 교육 솔루션 `터치클래스`의 기능 고도화 및 유지보수</div>
           </div>
 
           <div className={wrap}>
             <h4 className={label}>주요 업무</h4>
-            <span className={experience}>레거시 코드 리팩토링, 공통 기능 모듈화</span>
-            <span className={experience}>교육 자료 생성 에디터 고도화 및 안정화</span>
-            <span className={experience}>랜딩페이지 재개발 및 Vue 도입</span>
+            <span className={experience}>레거시 jQuery 기반 코드 리팩토링 및 Vue 도입</span>
+            <span className={experience}>교육 자료 에디터 안정화 및 기능 고도화</span>
+            <span className={experience}>교육 자료 큐레이션 페이지 재구성 및 반응형 구현</span>
           </div>
 
           <div className={wrap}>
@@ -31,13 +31,14 @@ const NewIn = () => {
           <h2 className={project}>터치투게더</h2>
 
           <div className={wrap}>
-            <div className={experience}>기업 사내용 소셜 미디어인 터치투게더의 기능 개발 및 유지보수를 담당했습니다.</div>
+            <div className={experience}>기업형 사내 소셜 피드 서비스 `터치투게더` 기능 개발 및 유지보수</div>
           </div>
 
           <div className={wrap}>
             <h4 className={label}>주요 업무</h4>
-            <span className={experience}>터치투게더의 피드 기능 개발</span>
-            <span className={experience}>Prosemirror를 사용하여 에디터 기능 개발</span>
+            <span className={experience}>피드 목록, 작성, 댓글 등 주요 인터랙션 기능 구현</span>
+            <span className={experience}>ProseMirror 기반 에디터 커스터마이징 및 입력 안정성 확보</span>
+            <span className={experience}>Emotion 기반 스타일링 적용 및 UI 일관성 개선</span>
           </div>
 
           <div className={wrap}>
