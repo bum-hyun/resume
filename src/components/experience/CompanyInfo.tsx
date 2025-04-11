@@ -10,7 +10,7 @@ interface ICompanyInfoProps {
 const CompanyInfo = ({ companyName, companyRole, url, period }: ICompanyInfoProps) => {
   return (
     <div className={company}>
-      <h3 className={h3}>{companyName}</h3>
+      <h5 className={h5}>{companyName}</h5>
       <span className={span1}>{companyRole}</span>
       <a className={a} href={url} target={'_blank'} rel={'noreferrer'}>
         {url}
@@ -35,7 +35,7 @@ const company = css`
   }
 `;
 
-const h3 = css`
+const h5 = css`
   font-size: 24px;
   line-height: 36px;
   margin-bottom: 8px;
@@ -43,11 +43,15 @@ const h3 = css`
 `;
 
 const span1 = css`
+  font-size: 12px;
   font-weight: 500;
 `;
 
 const a = css`
+  font-size: 12px;
   text-decoration: underline;
 `;
 
-const span2 = css``;
+const span2 = css`
+  font-size: 12px;
+`;

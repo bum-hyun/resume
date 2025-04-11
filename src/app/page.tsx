@@ -19,8 +19,4 @@ const container = css`
   width: 100%;
   padding: 0 60px;
   margin: 0 auto;
-
-  > section {
-    border-bottom: 1px solid #ddd;
-  }
 `;

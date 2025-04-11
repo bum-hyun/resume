@@ -7,7 +7,7 @@ import NewIn from '@/components/experience/NewIn';
 const Experience = () => {
   return (
     <section className={section}>
-      <h1 className={h1}>업무경험</h1>
+      <h3 className={h3}>업무경험</h3>
       <FridgeCrew />
       <NewIn />
       <AplAd />
@@ -23,12 +23,12 @@ const section = css`
   padding: 24px 0;
 
   > div + div {
-    margin-top: 24px;
+    margin-top: 12px;
   }
 `;
 
-const h1 = css`
+const h3 = css`
   font-size: 36px;
   font-weight: bold;
-  margin-bottom: 24px;
+  margin-bottom: 12px;
 `;
